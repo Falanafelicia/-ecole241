@@ -1,0 +1,149 @@
+@font-face{
+	font-family:motionpicture;
+	src:url("../fonts/motion-picture-personal-use/MotionPicture_PersonalUseOnly.ttf");
+}
+
+@font-face{
+	font-family: 'Montserrat', sans-serif;
+	src:url("../fonts/montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+     font-family:Merriweather, serif;
+     src:url("..//fonts/Merriweather/Merriweather-BoldItalic.ttf");
+
+}
+
+
+
+
+.txt-center{text-align:center;}
+
+.ul-none{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-green{background-color:#08b597;}
+
+.li-align{display:inline; margin-right: 600px}
+
+.word-space{word-spacing:30px;}
+
+.color-white{color:white;}
+
+.color-grey{color:grey;}
+
+.color-white{color:white}
+
+.sansserif{font-family:motionpicture;}
+
+.sansserif2{font-family: 'Montserrat', serif;}
+
+.serif3{font-family: merriweather, serif;}
+
+.serif4{font-family: merriweather, serif;}
+
+.img{ 
+	
+	background: url("../images/fond-top.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+
+   
+
+}
+
+.img2{
+
+  width: 10px;
+  height: 200px;
+  padding: 30px;
+}
+
+.button {
+  background-color: #08b597; /* Green */
+  border-radius:20px ;
+  color: white;
+  padding: 10px 32px;
+  margin:30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:18px;
+  position: absolute;
+  top: 350px;
+  left: 300px;
+}
+
+
+.Deshi{
+	color:#8A8A8A;
+	font-size:50px;
+}
+
+.Mag{
+	color:#00BF9a;
+	font-size:50px;
+}
+
+
+.container{
+	position:relative;
+}
+
+.center {
+  position: absolute;
+  top:60%;
+  left:23%;
+  font-size: 35px;
+}
+
+.container2{
+	position:relative;
+}
+
+.center2{
+  position: absolute;
+  top:72%;
+  left:23%;
+  font-size: 10px;
+}
+
+
+
+ .dis-lin{
+ 	display: inline;
+ }
+.bg-posi{
+	height: 150px;
+	width: 300px;
+	background:url(../images/vignette.png) no-repeat;
+	display: inline-block;
+	margin-top:400px;
+	margin-left:20px;
+	padding-top:50px;
+
+}
+
+.container3{
+	position: absolute;
+	padding-left: 200px;
+
+
+}
+
+.font-size{
+    font-size: 10px
+}
+
+hr {
+	width:700px;
+}
+
+
+
+
+

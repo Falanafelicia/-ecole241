@@ -24,6 +24,9 @@
 
 .bg-green{background-color: green;}
 
+.bg-green-li{background-color: "hex" #08b597;}
+
+
 .pad-5{padding:5px;}
 
 /*Mes diffenrents padding auto*/
@@ -286,5 +289,20 @@
 
 .marg-t-50{margin:50px;}
 
+
+/*bloc alignement*/
+
+.dis-line {display:inline;}
+
+.dis-ib {display:inline-block;}
+
+.dis-block {display:block;}
+
+.dis-x{display:horizontal;}
+
+
+
+
+.list-type{list-style-type:none}
 
 
