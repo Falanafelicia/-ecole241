@@ -12,12 +12,15 @@
 
 .color-yellow{color:yellow;}
 
+<<<<<<< HEAD
 .color-orange{color:orange;}
+=======
+.color-orange {couleur:orange;}
+>>>>>>> 24284ffffb61681b68e1c51d357b875c29d3ead1
 
 /*border*/
 
 .border-2{border: 2px solid black;}
-
 .border-yellow{border-color: yellow;}
 
 /*background*/
