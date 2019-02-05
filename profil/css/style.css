@@ -389,24 +389,25 @@ header .bar {
 }
 .info img {
   height: 50rem;
-  width: 30rem;
+  width: 35rem;
   border-radius: %;
-  margin: .9rem 0 0 0;
+  margin: .20rem 0 0 0;
   float: left;
 }
 .info .lead {
   text-align: left;
   padding-left: 13rem;
+
 }
 
 .sur-content {
   position: relative;
-  text-align: left;
+  text-align: justify;
   max-width: 850px;
   margin-bottom: 3.6rem;
 }
 .sur-content h3 {
-  font-family: "poppins-bold", sans-serif;
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: .25rem;
@@ -420,7 +421,7 @@ header .bar {
   margin-bottom: .6rem;
 }
 .sur-content .list li strong {
-  font-family: "poppins-bold", sans-serif;
+  font-family: "Poppins-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -429,7 +430,7 @@ header .bar {
 }
 .sur-content .info-list li span {
   display: block;
-  font-family: "poppins-regular", sans-serif;
+  font-family: "Pppins-Regular", sans-serif;
   color: #888888;
   font-size: 1.5rem;
   line-height: 1;
@@ -516,7 +517,7 @@ html {
 }
 
 html, body {
-  height: 100%;
+  height: 100%; 
 }
 body {
   background:;
@@ -538,7 +539,7 @@ a:hover, a:focus, a:active {
   outline: 0;
 }
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "poppins-semibold", sans-serif;
+  font-family: "Poppins-SemiBold", sans-serif;
   color: #313131;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -548,7 +549,7 @@ h3, .h03, h4, .h04 {
   margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-  font-family: "poppins-bold";
+  font-family: "Poppins-Bold";
   margin-bottom: 1.2rem;
 }
 h1, .h01 {
@@ -1184,4 +1185,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   #cv .timeline-header, #cv .timeline-content {
     padding-left: 5.5rem;
   }
+}
+
+.ds{
+  align-content:center;
 }
