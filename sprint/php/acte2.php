@@ -12,10 +12,10 @@
  $nom = "FALANA";    // Type string (chaine de caractères)
  $age = 20;    // Type entier(nombres entiers)
  $des = 5e-1;    // Type réels/floats
- $estEtudiant = true;  // Type booléen
+ $un = true;  // Type booléen
  $cours = array("leadership","management","informatique"); // Type tableau
 
- echo "Moi je suis $nom et je bois $des litres d'eau par jour,j'ai $age ans<br>"; 
+ echo "Moi je suis $nom et je bois $des litres d'eau par jour,j'ai $age ans et ceci est donc $un aperçu<br>"; 
  //echo "Je fais" .$cours[0]. "," .$cours[1]. "et" .$cours[2].;
 
  ?>
