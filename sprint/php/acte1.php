@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>PHP</head>
 <body>
  <h1>Mon premier PHP</h1>
 
