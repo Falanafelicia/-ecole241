@@ -1,5 +1,7 @@
 body{
   width:100%;
+  text-align:center;
+  margin:0 auto;
 }
 *{
   margin:0;
@@ -10,9 +12,13 @@ header{
   background-color:#151515
 }
 
+.container{
+  max-width: 1200px;
+}
+
 #intro {
   background-color:rgb(21,21,21);
-  background:url(../img/pic6.jpg) no-repeat center bottom;
+  background:url(img/pic6.jpg) no-repeat center bottom;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   background-size:cover;
@@ -29,7 +35,6 @@ header{
 
 .content h1{
   font-size:4em;
-  font-family:'', serif;
   padding:0;
   color:white;
   text-align:center;
@@ -57,8 +62,6 @@ header{
   text-transform:uppercase;
 }
 
-.content span |{
-}
 
 a:visited{
   color:#6e6e6e;
@@ -110,12 +113,13 @@ a:visited{
   padding: 0 8px 0 14px;
   color: rgba(255, 255, 255, 0.3);
 }
-..position span:first-child::before {
+.position span:first-child::before {
   content: "|";
   text-align: center;
   display: inline-block;
   padding: 0 14px 0 8px;
   color: rgba(255, 255, 255, 0.3);
+  font-family:'Lora', serif;
   
 }
 .content .button {
@@ -159,6 +163,7 @@ a:visited{
 }
 #sur .section-intro {
   margin-bottom: 3rem;
+  text-align:center;
 }
 
 .info {
@@ -167,26 +172,25 @@ a:visited{
   margin-left: -30px;
 }
 .info img {
-  height: 50rem;
-  width: 35rem;
-  border-radius: %;
-  margin: .20rem 0 0 0;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  margin: .9rem 0 0 0;
   float: left;
 }
 .info .lead {
   text-align: left;
   padding-left: 13rem;
-
 }
 
 .sur-content {
   position: relative;
-  text-align: justify;
+  text-align: center;
   max-width: 850px;
   margin-bottom: 3.6rem;
 }
 .sur-content h3 {
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: "poppins-bold", sans-serif;
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: .25rem;
@@ -194,24 +198,25 @@ a:visited{
 .sur-content .list {
   list-style: none;
   margin-left: 0;
+  text-align:center;
 }
 .sur-content .list li {
   padding: 0 0 1.5rem 0;
   margin-bottom: .6rem;
 }
 .sur-content .list li strong {
-  font-family: "Poppins-bold", sans-serif;
+  font-family: "poppins-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 3rem;
 }
-.sur-content .info-list li span {
+.sur-content .list li span {
   display: block;
-  font-family: "Pppins-Regular", sans-serif;
+  font-family: "poppins-regular", sans-serif;
   color: #888888;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1;
 }
 .sur-content .skill-bars {
@@ -285,7 +290,7 @@ p img {
 }
 p.lead {
   font-family: "lora-regular", serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.8;
   color: #888888;
   text-align:justify-all;
