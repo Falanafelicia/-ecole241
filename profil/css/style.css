@@ -1294,7 +1294,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: url(../img/1.jpg) no-repeat center bottom;
+	background: url(../img/pic9.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1307,7 +1307,7 @@ header .logo a {
 	text-align: center;
 }
 .overlay {
-	position: ;
+	position:center;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1330,10 +1330,7 @@ header .logo a {
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
-	margin-top: 0;
-	margin-bottom: .6rem;
-	margin-left: auto;
-	margin-right: auto;
+	margin:30px 400px !important;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 	text-align: center;
 }
@@ -1343,6 +1340,7 @@ header .logo a {
 	font-size: 2.3rem;
 	line-height: 1.565;
 	margin-bottom: 0;
+	margin-top: 150px;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
@@ -1356,6 +1354,7 @@ header .logo a {
 	letter-spacing: .2rem;
 	color: #FFFFFF;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	text-align: center;
 }
 .content .position span {
 	display: inline-block;
@@ -1400,12 +1399,12 @@ header .logo a {
 }
 
 .social {
-	display: block;
-	position: absolute;
+	display: inline-block;
+	position:absolute;
 	width: 100%;
 	left: 0;
 	bottom: 7.2rem;
-	font-size: 3.3rem;
+	font-size: 100px !important;
 	margin: 0;
 	padding: 0;
 }
@@ -1498,23 +1497,26 @@ header .logo a {
 }
 #sur .section-intro {
 	margin-bottom: 3rem;
+	padding-right:20px !important;
 }
 
 .info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
-	margin-left: -30px;
+	margin-lefokrt: -30px;
 }
 .info img {
-	height: 45rem;
-	width: 30rem;
+	height: 60rem;
+	width: 45rem;
 	border-radius:;
 	margin: .20rem 0 0 0;
+	padding-left:45px;important !
 	float: left;
 }
 .info .lead {
-	text-align: left;
+	text-align:left justify;
 	padding-left: 13rem;
+	
 }
 
 .sur-content {
@@ -1680,8 +1682,9 @@ header .logo a {
 #cv .timeline-header {
 	float: left;
 	width: 35%;
-	padding-right: 90px;
+	padding-right: 100px;
 	text-align: right;
+	padding-left: 30px;
 }
 #cv .timeline-header h3 {
 	margin-bottom: 0;
@@ -2022,228 +2025,6 @@ header .logo a {
 	-webkit-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	transform: translateY(-100%);
-}
-
-/** 
- * ===================================================================
- * 14. call-to-action section - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#cta {
-	padding-top: 10.2rem;
-	padding-bottom: 9rem;
-	text-align: center;
-}
-#cta p.lead {
-	color: #6e6e6e;
-}
-.cta-content {
-	max-width: 640px;
-}
-.cta-thumb {
-	display: inline-block;
-	margin-bottom: 1.2rem;
-}
-.cta-thumb img {
-	height: 7.8rem;
-	width: 7.8rem;
-	border-radius: 50%;
-}
-
-/**
- * section ads - (_layout.scss)
- * ------------------------------------------------------------------- 
- */
-.section-ads h2 {
-	position: relative;
-	padding-bottom: 2.1rem;
-}
-.section-ads h2::after {
-	content: "";
-	display: block;
-	height: 3px;
-	width: 80px;
-	background: rgba(0, 0, 0, 0.2);
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-	margin-left: -40px;
-}
-.section-ads h2 a, .section-ads h2 a:visited {
-	color: #313131;
-}
-.section-ads span {
-	color: #3F0D39;
-}
-
-/**
- * responsive:
- * cta
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:650px) {
-	.cta-content {
-		max-width: 650px;
-	}
-	.cta-content h2 {
-		font-size: 2.4rem;
-	}
-}
-
-
-/** 
- * ===================================================================
- * 15. services - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	padding-top: 12rem;
-	padding-bottom: 12rem;
-	color: white;
-	position: relative;
-}
-#services .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #151515;
-	opacity: .9;
-}
-
-#services .section-intro {
-	margin-bottom: 1.8rem;
-}
-
-#services .section-intro h1 {
-	color: white;
-}
-#services .section-intro h5 {
-	color: #FF0077;
-}
-#services .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
-}
-.services-content {
-	max-width: 1200px;
-}
-.services-list {
-	margin-top: 1.2rem;
-	text-align: center;
-}
-.services-list .service {
-	margin-bottom: 1.2rem;
-	padding: 0 30px;
-}
-.services-list .icon {
-	display: inline-block;
-	margin-bottom: 2.1rem;
-}
-.services-list .icon i {
-	font-size: 5.4rem;
-	color: #FF0077;
-}
-.services-list h3 {
-	color: #FFFFFF;
-}
-.services-list .desc {
-	color: rgba(255, 255, 255, 0.6);
-}
-
-/* pagination */
-.owl-pagination {
-	text-align: center;
-	width: 100%;
-	margin: .6rem 0 0;
-}
-.owl-theme .owl-controls .owl-page {
-	display: inline-block;
-}
-.owl-theme .owl-controls .owl-page span {
-	display: block;
-	width: 1.2rem;
-	height: 1.2rem;
-	margin: 1.2rem .8rem 0 .8rem;
-	border-radius: 50%;
-	display: inline-block;
-	background: #FFFFFF;
-}
-.owl-theme .owl-controls .owl-page.active span {
-	background: #FF0077;
-}
-
-
-/** 
- * ===================================================================
- * 16. stats - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#stats {
-	background: #990047;
-	padding-top: 7.2rem;
-	padding-bottom: 6rem;
-	text-align: center;
-}
-#stats .row {
-	max-width: 1440px;
-}
-#stats .stat {
-	border-left: 1px solid rgba(255, 255, 255, 0.12);
-	min-height: 17.4rem;
-}
-#stats .stat:first-child {
-	border: none;
-}
-#stats .icon-part i {
-	font-size: 4.8rem;
-	color: #000000;
-}
-#stats .stat-count {
-	color: #FFFFFF;
-	font-size: 3.6rem;
-	margin-top: 1.2rem;
-	margin-bottom: 0;
-	font-family: "poppins-medium", sans-serif;
-	color: white;
-}
-#stats .stat-title {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-/**
- * responsive:
- * stats
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:1024px) {
-	#stats .stat:nth-child(n) {
-		border-left: 1px solid rgba(255, 255, 255, 0.12);
-		padding-bottom: 1.5rem;
-	}
-	#stats .stat:nth-child(3n+1) {
-		border: none;
-	}
-}
-@media only screen and (max-width:768px) {
-	#stats .stat:nth-child(n) {
-		border-left: 1px solid rgba(255, 255, 255, 0.12);
-	}
-	#stats .stat:nth-child(2n+1) {
-		border: none;
-	}
-}
-@media only screen and (max-width:600px) {
-	#stats .stat:nth-child(n) {
-		border: none;
-	}
 }
 
 
