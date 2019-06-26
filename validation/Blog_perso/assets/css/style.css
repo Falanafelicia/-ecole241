@@ -4,13 +4,13 @@
 
 }
 
-
 body {
 	height: 100%;
 	width: 100%;
 	margin:0 auto;
 	font-family: futura;
 	color:black;
+  text-align: justify !important;
 }
 
 p{
@@ -24,7 +24,6 @@ header {
 	min-height: 66px;
 	z-index: 600;
 }
-
 
 .bg {
 	background-image: url(../img/1.png);
@@ -229,7 +228,7 @@ hr{
 
 .align{
 	display: flex;
-    margin-top: 15px !important;
+  margin-top: 15px !important;
 }
 
 ol{
@@ -271,7 +270,7 @@ span{
 .small-img{
 	width:10rem;
 	height:10rem;
-	margin:30px -16.5px;
+	margin:5px -16.5px;
 }
 
 .color-a{
@@ -284,6 +283,8 @@ span{
 	color:white;
 	text-decoration: none;
 	font-size: 0.7rem;
+  letter-spacing: 0.4rem;
+  margin:5px -16.5px;
 }
 
 .txt-2{
